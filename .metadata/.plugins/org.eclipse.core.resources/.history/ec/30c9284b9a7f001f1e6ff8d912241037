@@ -1,0 +1,10 @@
+package basic;
+
+public class PrimitiveTypeTest {
+public static void main(String[] args) {
+	boolean b= true ;  // 1 byte 할당, 1 bit 사용
+	byte b2 = 127; // 128 부터는 에러
+	System.out.println(b2);
+	
+}
+}

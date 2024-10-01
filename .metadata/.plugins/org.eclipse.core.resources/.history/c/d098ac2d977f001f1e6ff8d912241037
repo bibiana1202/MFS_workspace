@@ -1,0 +1,13 @@
+package basic;
+
+public class DataType {
+	public static void main(String[] args) {
+		int bookSize = 10;
+		int book_size = 10;
+		
+		int _a = 10;
+		int __a = 10;
+//		int _ = 10 ; // 이건 에러임
+		System.out.println(__a);
+	}
+}

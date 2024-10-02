@@ -12,6 +12,6 @@ public class OpTest14 {
 			System.out.println(x % 2 == 0 ? "찍수" : "홀수");
 		}
 		
-		System.out.println("종료");	
+
 	}
 }

@@ -1,0 +1,27 @@
+package Arrrays;
+
+import java.util.Scanner;
+
+public class TypingGame {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+
+		String[] keywords = { "oop", "primitive type", "java", "james gosling", "for", "while", "do while", "continue",
+				"break", "Scanner" };
+
+		int[] item = new int[3];for(
+		int i = 0;i<item.length;i++)
+		{
+			item[i] = (int)(Math.random()*keywords.length);
+		}
+		
+		
+		System.out.println("Game start");
+		for(int i=0;i<item.length;i++) {
+			System.out.print(keywords[item[i]]);
+		}
+	}
+	
+	
+}

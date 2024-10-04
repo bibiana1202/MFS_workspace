@@ -1,0 +1,29 @@
+package Arrrays;
+
+import java.util.Arrays;
+
+public class ArrayTest2 {
+	public static void main(String[] args) {
+		
+		int[][] score = {
+				{100,90,80,70},
+				{101,91,81,71},
+				{102,92,82,72}
+		};
+		
+		System.out.println(Arrays.toString(score));
+		
+		for(int row=0;row<score.length+1;row++) {
+			int sum =0;
+			for(int col = 0 ; col < score[row].length; col++) {
+				System.out.print(score[row][col]+"\t");
+				sum+=score[row][col];
+			}
+			System.out.print(sum+"\t");
+			System.out.println();
+		}
+		
+		System.out.println("end");
+
+	}
+}

@@ -1,0 +1,19 @@
+package Arrrays;
+
+import java.util.Arrays;
+
+public class ArrayTest2 {
+	public static void main(String[] args) {
+		
+		int[][] score = {
+				{100,90,80,70},
+				{100,90,80,70},
+				{100,90,80,70}
+		};
+		
+		System.out.println(Arrays.toString(score));
+		
+		System.out.println("end");
+
+	}
+}

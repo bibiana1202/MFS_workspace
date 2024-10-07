@@ -1,5 +1,7 @@
 package Arrrays;
 
+import java.util.Arrays;
+
 public class ArrayTest3 {
 	public static void main(String[] args) {
 		
@@ -16,7 +18,6 @@ public class ArrayTest3 {
 			}
 		};
 		
-//		System.out.println(Arrays.toString(score));
 		
 		
 		for(int tab = 0 ; tab < score.length;tab++) {
@@ -33,7 +34,8 @@ public class ArrayTest3 {
 				System.out.println();
 			}
 		}
-		
+		System.out.println(Arrays.deepToString(score));
+
 		System.out.println("end");
 
 	}

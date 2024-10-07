@@ -1,0 +1,11 @@
+package oop2;
+
+public class Point2D {
+	int x;
+	int y;
+	
+	public Point2D() {
+		x=100;
+		y=200;
+	}
+}

@@ -1,0 +1,5 @@
+package sec01_createobjectandusageofmembers.EX01_CreateObjectAndUsageOfMembers;
+
+public class CreateObjectAndUsageOfMembers {
+
+}

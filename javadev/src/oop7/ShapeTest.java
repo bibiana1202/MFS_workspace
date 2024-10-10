@@ -19,7 +19,7 @@ public class ShapeTest {
 		}
 		else if(s instanceof Triangle) {
 			Triangle t = (Triangle) s;
-			System.out.println("가로"+t.w+"세로"+t.h+"인 삼각형의 넓이는"+t.res);
+			System.out.println("밑변"+t.w+"높이"+t.h+"인 삼각형의 넓이는"+t.res);
 		}
 		
 			

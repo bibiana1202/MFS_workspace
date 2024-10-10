@@ -31,6 +31,8 @@ public class Typecasting_2 {
 		// A타입 / B 생성자 : 다형적 표현
 		A ab = new B();
 		System.out.println(ab.m);
+//		System.out.println(ab.n);
 		ab.abc();
+//		ab.bcd();
 	}
 }

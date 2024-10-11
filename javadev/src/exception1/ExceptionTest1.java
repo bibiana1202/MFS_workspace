@@ -21,7 +21,6 @@ public class ExceptionTest1 {
 		try {
 			System.out.println(3/0);
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} 
 		

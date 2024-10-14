@@ -11,4 +11,12 @@
     <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="java.util.Properties"/>
     <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="sec01_instanceinnerclass.EX01_CreateObjectAndAccessMember.A.B"/>
+    <fullyQualifiedTypeName name="sec01_instanceinnerclass.EX02_UseMembersOfOuterClass.A.B"/>
+    <fullyQualifiedTypeName name="sec02_staticinnerclass.EX01_CreateObjectAndAccessMember.A.B"/>
+    <fullyQualifiedTypeName name="sec05_innerinterface.EX01_CreateObjectOfInnerInterface.A.B"/>
+    <fullyQualifiedTypeName name="sec05_innerinterface.EX02_ButtonAPIExample.Button.OnClickListener"/>
+    <fullyQualifiedTypeName name="java.net.MulticastSocket"/>
 </qualifiedTypeNameHistroy>

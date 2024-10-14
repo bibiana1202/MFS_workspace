@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<item key="hasShownOverlayPopupBefore" value="true"/>
-	<item key="replaceBarOpen" value="true"/>
+	<item key="replaceBarOpen" value="false"/>
 	<list key="searchhistory">
+		<item value="run()"/>
+		<item value="currentThread()"/>
+		<item value="start()"/>
+		<item value="getName()"/>
+		<item value="thread()"/>
 		<item value="SamsungTV"/>
 		<item value="StringBuffer"/>
 		<item value="System"/>

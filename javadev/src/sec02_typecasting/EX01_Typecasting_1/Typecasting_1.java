@@ -24,6 +24,9 @@ public class Typecasting_1 {
 		A ab = new B();
 		B b = (B)ab;		// A -> B 다운캐스팅(수동 변환)
 //		C c = (C)ab; 		// A -> C 다운캐스팅(수동 변환) : 불가능
+//		B b = (A)ab;		
+		
+		
 		
 		B bd = new D();
 		D d = (D)bd;		// B -> D 다운캐스팅(수동 변환)

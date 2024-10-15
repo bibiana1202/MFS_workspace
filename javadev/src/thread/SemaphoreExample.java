@@ -9,28 +9,24 @@ public class SemaphoreExample {
     private static Semaphore semaphore = new Semaphore(2); // 2개까지
 
     public static void main(String[] args) {
-        Thread t1 = new Thread(new Runnable() {
-         @Override
-         public void run() {
-            try {Thread.sleep(500);} catch (InterruptedException e) {}
-            accessResource();
-         }
-        });
-        Thread t2 = new Thread(new Runnable() {
-         @Override
-         public void run() {
-            try {Thread.sleep(500);} catch (InterruptedException e) {}
-            accessResource();
-         }
-        });
-        Thread t3 = new Thread(new Runnable() {
-         @Override
-         public void run() {
-            try {Thread.sleep(500);} catch (InterruptedException e) {}
-            accessResource();
-         }
-        });
 
+    	Thread t1 = new Thread(new Runnable() {
+    		@Override
+    		public void run() {
+    			try {Thread.sleep(500);} catch (InterruptedException e) {}
+    			accessResource();
+    		}
+    	});
+
+    	Thread t2 = new Thread(new Runnable() {
+         @Override
+         public void run() {
+            try {Thread.sleep(500);} catch (InterruptedException e) {}
+            accessResource();
+         }
+        });
+        
+    	Thread t3 = new Thread(()->accessResource()); // 람다식
         t1.start();
         t2.start();
         t3.start();

@@ -18,5 +18,7 @@
     <fullyQualifiedTypeName name="sec02_staticinnerclass.EX01_CreateObjectAndAccessMember.A.B"/>
     <fullyQualifiedTypeName name="sec05_innerinterface.EX01_CreateObjectOfInnerInterface.A.B"/>
     <fullyQualifiedTypeName name="sec05_innerinterface.EX02_ButtonAPIExample.Button.OnClickListener"/>
+    <fullyQualifiedTypeName name="java.lang.Thread.State"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.Semaphore"/>
     <fullyQualifiedTypeName name="java.net.MulticastSocket"/>
 </qualifiedTypeNameHistroy>

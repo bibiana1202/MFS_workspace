@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<item key="hasShownOverlayPopupBefore" value="true"/>
-	<item key="replaceBarOpen" value="false"/>
+	<item key="replaceBarOpen" value="true"/>
 	<list key="searchhistory">
+		<item value="ArrayList"/>
 		<item value="run()"/>
 		<item value="currentThread()"/>
 		<item value="start()"/>
@@ -13,6 +14,7 @@
 		<item value="System"/>
 	</list>
 	<list key="replacehistory">
+		<item value="Vector"/>
 		<item value="LgTV"/>
 		<item value="StringBuilder"/>
 	</list>

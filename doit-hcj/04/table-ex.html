@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    table,th,td{
+      border: 1px solid #ccc;
+      border-collapse: collapse;
+    }
+    th,td{
+      padding: 10px 20px 30px 40px;
+    }
+  </style>
+</head>
+<body>
+  <table border="1">
+    <caption>성적표</caption>
+    <tbody>
+      <tr>
+        <th>이름</th>
+        <th>국어</th>
+        <th>영어</th>
+        <th>수학</th>
+      </tr>
+      <tr>
+        <td>유재하</td>
+        <td>100</td>
+        <td>90</td>
+        <td rowspan="2">0</td>
+     </tr>
+      <tr>
+          <td>신해철</td>
+          <td colspan="2">90</td>
+      </tr>
+      <tr>
+        <td>정현철</td>
+        <td>80</td>
+        <td>70</td>
+        <td>60</td>
+     </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>

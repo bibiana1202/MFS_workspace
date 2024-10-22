@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    const x = parseInt(Math.random()*99) + 1 ;
+    
+    let you = 50;
+    let count = 0 ;
+    do{
+      you = parseInt(prompt('1~99 사이의 정수를 입력하세요',you));
+      count++;
+      if(x>you){
+        alert( `x는 ${you} 보다 큽니다. `);
+      }
+      else if (x< you){
+        alert( `x는 ${you} 보다 작습니다.`);
+      }
+    }while(x != you);
+    document.write(`
+      x는 ${you} 입니다!!!<br>
+      ${count}번 만에 맞추셧습니다.<br>`);
+    
+    document.body.innerHTML += 'end';
+
+  </script>
+</body>
+</html>

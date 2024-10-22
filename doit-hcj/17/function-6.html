@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  
+</head>
+<body>
+  <table>
+    
+      <td><textarea rows ="5" col="20" id ="ta1">실수란 신을 용서하는 인간의 행위이다</textarea></td>
+      <td rowspan="2">
+        <table>
+          <tr>
+            <td><button onclick="shift_right()">▶</button></td>
+          </tr>
+          <tr>
+            <td><button onclick="shift_left()">◀</button></td>
+          </tr>
+        </table>
+      </td>
+      <td><textarea rows ="5" col="20" id ="ta2"></textarea></td>
+    
+  </table>
+  <script>
+    let ta1 = document.querySelector('#ta1'); 
+    let ta2 = document.querySelector('#ta2'); 
+   
+    let shift_right = function(){
+      if(ta1.value !== '' && ta2.value === ''  ){
+        ta2.value = ta1.value;
+        ta1.value ='';
+      }
+    }
+
+    let shift_left = function(){
+      if(ta2.value !== '' && ta1.value === ''  ){
+        ta1.value = ta2.value;
+        ta2.value ='';
+      }
+    }
+    
+  </script>
+</body>
+</html>

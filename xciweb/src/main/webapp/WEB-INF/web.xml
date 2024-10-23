@@ -9,14 +9,32 @@
 		<welcome-file>default.htm</welcome-file>
 		<welcome-file>default.jsp</welcome-file>
 	</welcome-file-list>
-	
+
+	<!-- 서블릿 동작 1. web.xml 파일의 기술하는 방법 -->
 	<servlet> 
 		<servlet-name>hello servlet</servlet-name>
 		<servlet-class>basic.HelloServlet</servlet-class>
+		<load-on-startup>10</load-on-startup> <!-- 0이상 정수가 들어가면 먼저 시작됨(두개 이상이면 작은값이 먼저) 마이너스 값이면 요청이 들어올때 -->
 	</servlet>
 	
 	<servlet-mapping>
 		<servlet-name>hello servlet</servlet-name>
 		<url-pattern>/hello</url-pattern>
 	</servlet-mapping>
+	
+	<!-- 서블릿 하나 더 생성 --> 
+	<!-- 0이상 정수가 들어가면 먼저 시작됨(두개 이상이면 작은값이 먼저) 마이너스 값이면 요청이 들어올때 -->
+
+<!--
+	<servlet>
+		<servlet-name>greeting</servlet-name>
+		<servlet-class>basic.Greeting</servlet-class>
+		<load-on-startup>-10</load-on-startup> 		
+	
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>greeting</servlet-name>
+		<url-pattern>/greeting</url-pattern>
+	</servlet-mapping>
+	-->
 </web-app>

@@ -15,7 +15,7 @@
 %>
 </body>
 </html>
-<%!
+<%! // declaration
 	public int dice(){
 		return (int)(Math.random() * 6 ) + 1;
 	}

@@ -9,7 +9,7 @@
 </head>
 <body>
 <pre>
-<% //scriptlet
+<% //scriptlet , jsp 의 주석 1 
 
 	Calendar c = Calendar.getInstance(); // new 가 감춰져 있는것, 내부에서 시스템에 맞는 인스턴스를 생성
 	
@@ -23,9 +23,9 @@
 	// 마지막날 : 마지막 날짜는 몇일 인가?
 	int endDay = c.getActualMaximum(Calendar.DATE);
 %>
-<!-- 주석 -->
+
 <table>
-<caption> <%=year %>년 <%=month %>월</caption>
+<caption> <%=year %>년 <%=month %>월</caption> <!-- jsp expression -->
 <tr>
 <td>일</td>
 <td>월</td>
@@ -37,10 +37,10 @@
 </tr>
 
 <tr align ='right'>
-<%-- comment --%>
+<%-- jsp 의 comment 2  --%>
 <%
 	/*
-	multi line comment
+	jsp의 multi line comment 3 
 	*/
 	for(int d= 1 ; d< dayOfWeek ; d++){
 		out.print("<td></td>");

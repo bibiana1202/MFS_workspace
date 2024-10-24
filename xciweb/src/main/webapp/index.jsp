@@ -12,5 +12,6 @@
 	<li><a href ="hello">첫번째 서블릿</a></li>
 	<li><a href ="greeting">Greeting 서블릿</a></li>
 </ol>
+<% response.sendRedirect("hello"); %>
 </body>
 </html>

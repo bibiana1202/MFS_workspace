@@ -14,10 +14,13 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\dev\MFS_workspace\BookMarket"/>
 			<item value="C:\dev\MFS_workspace"/>
 			<item value="C:\dev\workspace"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="C:\dev\MFS_workspace\xciweb\src\main\webapp\ch05\request.jsp"/>
+			<item value="C:\dev\MFS_workspace\xciweb\src\main\webapp\ch05\response03.jsp"/>
 			<item value=""/>
 		</list>
 		<section name="ExternalProjectImportWizard.dialogBounds">

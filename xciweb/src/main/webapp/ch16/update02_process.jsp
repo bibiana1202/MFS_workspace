@@ -27,13 +27,19 @@
 				String rId = rs.getString("id");
 				String rPasswd = rs.getString("passwd");
 
-				if (id.equals(rId) && passwd.equals(rPasswd)) {
-					sql = "update member set name = ? where id = ?";
+/* 				if (id.equals(rId) && passwd.equals(rPasswd)) { */
+				if (id.equals(rId) ) {
+					sql = "update member set name = ? where id = ? and passwd =?";
 					pstmt = conn.prepareStatement(sql);
 					pstmt.setString(1, name);
 					pstmt.setString(2, id);
-					pstmt.executeUpdate();
-					out.println("Member 테이블을 수정했습니다.");
+					pstmt.setString(3, passwd);
+					if(pstmt.executeUpdate() ==1){;
+						out.println("Member 테이블을 수정했습니다.");
+					}
+					else{
+						out.println("해당되는 레코드가 없습니다.");
+					}
 				} else
 					out.println("일치하는 비밀번호가 아닙니다");
 			} else

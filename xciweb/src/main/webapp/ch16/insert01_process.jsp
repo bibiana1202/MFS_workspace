@@ -24,6 +24,7 @@
 			out.println("Member 테이블 삽입이 실패했습니다.<br>");
 			out.println("SQLException: " + ex.getMessage());
 		} finally {
+			// 만든 자원의 역순으로 해지해야
 			if (stmt != null)
 				stmt.close();
 			if (conn != null)

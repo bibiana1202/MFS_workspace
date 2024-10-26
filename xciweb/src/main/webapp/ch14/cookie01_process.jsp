@@ -10,7 +10,7 @@
 
 		if (user_id.equals("admin") && user_pw.equals("1234")) {
 			Cookie cookie_id = new Cookie("userID", user_id);
-			cookie_id.setMaxAge(10);
+			cookie_id.setMaxAge(10); // 쿠키의 유효기간을 결정하는
 			Cookie cookie_pw = new Cookie("userPW", user_pw);
 			cookie_pw.setMaxAge(40);
 			response.addCookie(cookie_id);
